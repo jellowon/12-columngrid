@@ -1,0 +1,33 @@
+.grid{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap:10px;
+}
+.cell{ 
+    background-color: rgb(220,220,220);
+    height:100px;
+}
+header{
+    grid-column: 1 / 4;
+    grid-row: 1;
+    height: 100px!important;
+    text-align: center;
+    padding:25px;
+}
+nav{
+    grid-column: 1 / 4;
+    grid-row: 2;
+    height: 30px!important;
+    text-align: center;
+}
+footer{
+    grid-column: 1 / 4;
+    grid-row: 5;
+    text-align: center;
+}
+divtall{
+    padding:15px;
+}
+divlong{
+    padding:15px;
+}
